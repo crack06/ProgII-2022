@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="views.ClientDataView">
+  <grid id="27dc6" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1ddb0" class="javax.swing.JLabel" binding="lbUserId">
+        <constraints/>
+        <properties>
+          <text value="Cedula Usuario"/>
+        </properties>
+      </component>
+      <component id="e4232" class="javax.swing.JTextField" binding="txtUserId">
+        <constraints/>
+        <properties>
+          <columns value="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b939c" class="javax.swing.JButton" binding="btnSearch">
+        <constraints/>
+        <properties>
+          <text value="Buscar"/>
+        </properties>
+      </component>
+      <component id="913e4" class="javax.swing.JTextArea" binding="tAreaAnswer">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+          <rows value="10"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
